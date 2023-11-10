@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jrenault <jrenault@student.42lyon.fr>      +#+  +:+       +#+        */
+/*   By: lezard <lezard@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 09:56:26 by jrenault          #+#    #+#             */
-/*   Updated: 2022/11/17 11:47:55 by jrenault         ###   ########lyon.fr   */
+/*   Updated: 2023/11/10 18:35:51 by lezard           ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdio.h>
 
-static int	ft_count(long int n)
+static int	ft_count_itoa(long int n)
 {
 	int	i;
 
@@ -48,7 +48,7 @@ char	*ft_itoa(int n)
 	int					sign;
 	char				*numstring;
 
-	i = (ft_count(n));
+	i = (ft_count_itoa(n));
 	numstring = shrink_itoa(i, &big_n, n, &sign);
 	if (!numstring)
 		return (NULL);
