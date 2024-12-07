@@ -18,6 +18,7 @@ SRCS = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c ft_isascii.c f
 add-ons_functions/free_tab.c add-ons_functions/free_tab_int.c add-ons_functions/free_tab_void.c add-ons_functions/ft_count.c add-ons_functions/ft_count_long.c add-ons_functions/ft_count_ul.c add-ons_functions/ft_count_unsigned.c add-ons_functions/ft_putchar.c add-ons_functions/ft_putnbr.c add-ons_functions/ft_putnbr_base.c add-ons_functions/ft_putnbr_base_ul.c add-ons_functions/ft_putstr.c add-ons_functions/ft_putunbr.c add-ons_functions/ft_strcmp.c add-ons_functions/ft_strcpy.c add-ons_functions/ft_strlen_doublechar.c add-ons_functions/ft_strncpy.c add-ons_functions/ft_swap_int.c \
 add-ons_functions/get_next_line/get_next_line.c add-ons_functions/get_next_line/get_next_line_utils.c \
 add-ons_functions/ft_printf/ft_printf.c add-ons_functions/ft_printf/ispercent_c.c add-ons_functions/ft_printf/ispercent_capx.c add-ons_functions/ft_printf/ispercent_d_i.c add-ons_functions/ft_printf/ispercent_p.c add-ons_functions/ft_printf/ispercent_s.c add-ons_functions/ft_printf/ispercent_u.c add-ons_functions/ft_printf/ispercent_x.c add-ons_functions/ft_printf/search_arg.c \
+add-ons_functions/ft_atoi_base.c
 
 SRCS_BONUS = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstadd_back.c ft_lstlast.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c
 OBJS = ${SRCS:.c=.o}

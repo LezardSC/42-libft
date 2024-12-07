@@ -35,5 +35,6 @@ char			*ft_strcpy(char *dest, const char *src);
 char			*ft_strncpy(char *dest, const char *src, size_t n);
 int				ft_strlen_doublechar(char **str);
 void			ft_swap_int(int *a, int *b);
+int             ft_atoi_base(char *str, char *base);
 
 #endif
